@@ -1,7 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import useAuth from "../state-manager";
 
-const Header = () => {
+const HomeNav = () => {
+  const session = useAuth();
+
+  const signOut = () => {
+    session.signOut();
+  };
   return (
     <div>
       <header className="text-gray-400 bg-gray-900 body-font">
@@ -22,26 +27,18 @@ const Header = () => {
             <span className="ml-3 text-xl">Rhon Finance</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center"></nav>
-          <Link to="/home">
-            <button className="inline-flex items-center bg-gray-1200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-              Get Started
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-4 h-4 ml-1"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </button>
-          </Link>
+          <button
+            onClick={() => {
+              signOut();
+            }}
+            className="inline-flex items-center bg-red-700 border-0 py-1 px-3 focus:outline-none hover:bg-red-500 rounded text-white mt-4 md:mt-0"
+          >
+            Sign Out
+          </button>
         </div>
       </header>
     </div>
   );
 };
 
-export default Header;
+export default HomeNav;
