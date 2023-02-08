@@ -14,10 +14,8 @@ const Landing = () => {
     <div>
       <Header />
       <Hero />
-      <Statisctics />
       <Management />
-      <Checkout />
-      <Master />
+      <Statisctics />
       <Faqs />
       <Footer />
     </div>

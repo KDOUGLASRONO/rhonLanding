@@ -11,13 +11,12 @@ const Hero = () => {
         <div className="w-full py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
           <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
             <span className="block">
-              The Tools to help your Business Grow and Scale
+            First payment solution Tailored to your needs
             </span>
           </h2>
           <p className="text-md mt-4 text-gray-400">
-            The state of Utah in the united states is home to lots of beautiful
-            National parks, Bryce national canion park ranks as three of the
-            most magnificient &amp; awe inspiring.
+          We are here for you. We give you the most convenient way to receive payments, 
+          Manage your bills and save all from one payment gateway
           </p>
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="mt-12 inline-flex rounded-md shadow">

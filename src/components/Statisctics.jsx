@@ -12,21 +12,21 @@ const Statisctics = () => {
               <span className="text-indigo-200">+</span>
             </h5>
             <p className="text-xs font-medium tracking-wide text-indigo-100 uppercase">
-              Businesses onboarded
+              Merchants onboarded
             </p>
           </div>
           <div>
             <h5 className="text-5xl font-bold text-white">
-              <span className="inline text-white">13</span>
+              <span className="inline text-white">200,457</span>
               <span className="text-indigo-200">+</span>
             </h5>
             <p className="text-xs font-medium tracking-wide text-indigo-100 uppercase">
-              Ongoing contracts
+              Transactions processed successfully
             </p>
           </div>
           <div>
             <h5 className="text-5xl font-bold text-white">
-              <span className="inline text-white">31</span>
+              <span className="inline text-white">10,000</span>
               <span className="text-indigo-200">+</span>
             </h5>
             <p className="text-xs font-medium tracking-wide text-indigo-100 uppercase">
@@ -35,7 +35,7 @@ const Statisctics = () => {
           </div>
           <div>
             <h5 className="text-5xl font-bold text-white">
-              <span className="inline text-white">6</span>
+              <span className="inline text-white">12</span>
               <span className="text-indigo-200">+</span>
             </h5>
             <p className="text-xs font-medium tracking-wide text-indigo-100 uppercase">

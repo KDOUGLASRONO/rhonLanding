@@ -7,85 +7,68 @@ const Faqs = () => {
         <h2 className="mb-12 text-3xl font-extrabold leading-9 text-gray-900 border-b-2 border-gray-100">
           FAQs
         </h2>
-        <ul className="flex flex-wrap items-start gap-8">
-          <li className="w-2/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
-              What is a home energy rating?
+        <ul class="flex flex-wrap items-start gap-8">
+        <li class="w-2/5">
+            <p class="text-lg font-medium leading-6 text-gray-900">
+                How Do I accept payments?
             </p>
-            <p className="mt-2">
-              <p className="text-base leading-6 text-gray-500">
-                A home energy rating is an estimated calculation into a homes
-                potential energy usage, which will determine the amount of
-                heating and cooling required to make its occupants comfortable.
-                It produces a star rating dependant on the amount of heating and
-                cooling loads which will be required, from 0 to 10 stars.
-              </p>
+            <p class="mt-2">
+                <p class="text-base leading-6 text-gray-500">
+                  When you register with rhonpesa you are provided with a unique merchant Id and you customers will us ussd *640*merchant_id*amount#. Fast and seamless.
+                </p>
             </p>
-          </li>
-          <li className="w-2/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
-              Why do I need a 6 Star energy rating?
+        </li>
+        <li class="w-2/5">
+            <p class="text-lg font-medium leading-6 text-gray-900">
+                How do I add my Bills?
             </p>
-            <p className="mt-2">
-              <p className="text-base leading-6 text-gray-500">
-                In most Australian states the government requires that all new
-                homes and apartments (along with certain types of building
-                extensions) built since 2010 be energy rated and achieve a
-                minimum of 6 Stars.
-              </p>
+            <p class="mt-2">
+                <p class="text-base leading-6 text-gray-500">
+                  Login to your account and add bills like insurance, stock purchasing, loans. A small percentage will be auto-deducted per transaction to pay for your monthly bills.
+                </p>
             </p>
-          </li>
-          <li className="w-2/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
-              What is the general cost of an energy rating?
+        </li>
+        <li class="w-2/5">
+            <p class="text-lg font-medium leading-6 text-gray-900">
+                How do I grow my wallet?
             </p>
-            <p className="mt-2">
-              <p className="text-base leading-6 text-gray-500">
-                Simple energy rating prices vary greatly on the size and type of
-                building, generally an energy rating will cost somewhere between
-                $130 to $700+.
-              </p>
+            <p class="mt-2">
+                <p class="text-base leading-6 text-gray-500">
+                  As your customers pay you, you wallet grows. You cam also deposit from mpesa or bank directly.
+                </p>
             </p>
-          </li>
-          <li className="w-2/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
-              What information do I need to supply for an energy rating to be
-              completed??
+        </li>
+        <li class="w-2/5">
+            <p class="text-lg font-medium leading-6 text-gray-900">
+                Why should I use Rhonpesa to accept payments?
             </p>
-            <p className="mt-2">
-              <p className="text-base leading-6 text-gray-500">
-                The information required to complete a full and comprehensive
-                energy report are the following final working drawings: Site
-                Plan, Floor Plan, Elevations, Sections, Lighting layout and
-                window schedule (including sizes of the existing windows).
-              </p>
+            <p class="mt-2">
+                <p class="text-base leading-6 text-gray-500">
+                  Rhonpesa is the fastest and most complete payment solution. Ypu can accept payment, manage your bills, boost your credit score and do shopping all in one payment gateway.
+                </p>
             </p>
-          </li>
-          <li className="w-2/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
-              Does building an extension need an energy rating?
+        </li>
+        <li class="w-2/5">
+            <p class="text-lg font-medium leading-6 text-gray-900">
+                Can I use money in my Rhonpesa account for shopping?
             </p>
-            <p className="mt-2">
-              <p className="text-base leading-6 text-gray-500">
-                Depended on the size of the extension you are building there is
-                a chance that it too will need to be energy rated. It&#x27;s
-                always best to check first before going ahead with construction.
-              </p>
+            <p class="mt-2">
+                <p class="text-base leading-6 text-gray-500">
+                  Yes it is possible, seamless and free. Our technology allows our customers to spend money directly in rhonpesa wallet to do shopping.
+                </p>
             </p>
-          </li>
-          <li className="w-2/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
-              What is the general cost of an energy rating?
+        </li>
+        <li class="w-2/5">
+            <p class="text-lg font-medium leading-6 text-gray-900">
+                Can I transfer money in Rhonpesa to bank?
             </p>
-            <p className="mt-2">
-              <p className="text-base leading-6 text-gray-500">
-                Depended on the size of the extension you are building there is
-                a chance that it too will need to be energy rated. It&#x27;s
-                always best to check first before going ahead with construction.
-              </p>
+            <p class="mt-2">
+                <p class="text-base leading-6 text-gray-500">
+                  Money in rhonpesa wallet can be transferred to bank, to other line or you can widthraw.
+                </p>
             </p>
-          </li>
-        </ul>
+        </li>
+    </ul>
       </div>
     </div>
   );
